@@ -6,12 +6,12 @@ public class App {
 	
 	public static void main(String[] args) {
 		
-		// RechnerInst rechnerInst = new RechnerInst();
+		RechnerInst rechnerInst = new RechnerInst();
 		
-		// output("Ergebnis: " + rechnerInst.summe(1, 1));
-		// output("Ergebnis: " + rechnerInst.differenz(5, 1));
-		// output("Ergebnis: " + rechnerInst.produkt(2, 3));
-		// output("Ergebnis: " + rechnerInst.quotient(2, 4));
+		output("Ergebnis: " + rechnerInst.summe(1, 1));
+		output("Ergebnis: " + rechnerInst.differenz(5, 1));
+		output("Ergebnis: " + rechnerInst.produkt(2, 3));
+		output("Ergebnis: " + rechnerInst.quotient(2, 4));
 		
 		output("-------------------------");
 
@@ -20,7 +20,7 @@ public class App {
 		output(preStr + RechnerStat.produkt(2, 3));
 		output(preStr + RechnerStat.quotient(2, 4));
 		
-		// output(preStr + Math.PI);
+		output(preStr + Math.PI);
 		
 	}
 
